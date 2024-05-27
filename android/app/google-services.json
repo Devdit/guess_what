@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "782263429307",
+    "project_id": "guess-what-id",
+    "storage_bucket": "guess-what-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782263429307:android:45ef3d0ccc0e8429d3219e",
+        "android_client_info": {
+          "package_name": "com.Devdit.guess_what"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1IyvYIqthEK6KaMgt09fZV7ZgFCfUmzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
