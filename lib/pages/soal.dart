@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:guess_what/component/color.dart';
+import 'package:guess_what/component/font.dart';
 
 class SoalPage extends StatefulWidget {
   final answer = "Nama Warga";
@@ -37,7 +38,7 @@ class _SoalPageState extends State<SoalPage> {
                 controller: myInputController,
                 decoration: InputDecoration(
                   hintText: 'Enter your answer here',
-                  hintStyle: TextStyle(color: Colors.white),
+                  hintStyle: TextStyle(color: Colors.white, fontFamily: mainFont),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8),
                     borderSide: BorderSide.none,
@@ -97,7 +98,7 @@ class _SoalPageState extends State<SoalPage> {
                         );
                       }
                     },
-                    child: Text('Submit'),
+                    child: Text('Submit', style: TextStyle(fontFamily: mainFont),),
                   ),
                 ),
                 isCorrect

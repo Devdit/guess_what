@@ -39,7 +39,7 @@ class HowToPage extends StatelessWidget {
                 "7. Jika anda tidak bisa menjawab kami menyediakan fitur bantuan\n"
                 "8. Fitur bantuan akan memunculkan clue jawaban\n"
                 "9. Fitur bantuan memerlukan 1 poin hati untuk di gunakan\n",
-                style: TextStyle(fontSize: 18, color: Colors.black),
+                style: TextStyle(fontSize: 18, color: Colors.black, fontFamily: mainFont),
               ),
             ),
           )

@@ -18,6 +18,11 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  fonts:
+    - family: Kodchasan
+      fonts:
+        - asset: assets/fonts/Kodchasan/Kodchasan-Medium.ttf
+
   assets:
-    - images/  
-    - images/gambar_soal/
+    - assets/
+    - assets/images/gambar_soal/

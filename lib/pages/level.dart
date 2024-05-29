@@ -47,6 +47,7 @@ class LevelPage extends StatelessWidget {
                       ],
                     ),
                     Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         SmallLockedButton(buttonText: "Level 2"),
                         SmallLockedButton(buttonText: "Level 4"),
