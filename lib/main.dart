@@ -19,7 +19,6 @@ void main() async {
       '/soal': (context) => SoalPage(),
       '/how': (context) => const HowToPage(),
       '/setting': (context) => const SettingsPage(),
-
     },
   ));
 }

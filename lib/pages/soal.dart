@@ -38,7 +38,8 @@ class _SoalPageState extends State<SoalPage> {
                 controller: myInputController,
                 decoration: InputDecoration(
                   hintText: 'Enter your answer here',
-                  hintStyle: TextStyle(color: Colors.white, fontFamily: mainFont),
+                  hintStyle:
+                      TextStyle(color: Colors.white, fontFamily: mainFont),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8),
                     borderSide: BorderSide.none,
@@ -53,11 +54,9 @@ class _SoalPageState extends State<SoalPage> {
                 Padding(
                   padding: const EdgeInsets.all(7.0),
                   child: ElevatedButton(
-                    
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: secondaryColor,
-                      foregroundColor: Colors.white
-                    ),
+                        backgroundColor: secondaryColor,
+                        foregroundColor: Colors.white),
                     onPressed: () {
                       if (myInputController.text.trim().toLowerCase() ==
                           widget.answer.toLowerCase()) {
@@ -84,8 +83,7 @@ class _SoalPageState extends State<SoalPage> {
                           context: context,
                           builder: (context) => AlertDialog(
                             title: Text('Salah'),
-                            content: Text(
-                                'Jawaban Anda Salah'),
+                            content: Text('Jawaban Anda Salah'),
                             actions: [
                               TextButton(
                                 onPressed: () {
@@ -98,19 +96,20 @@ class _SoalPageState extends State<SoalPage> {
                         );
                       }
                     },
-                    child: Text('Submit', style: TextStyle(fontFamily: mainFont),),
+                    child: Text(
+                      'Submit',
+                      style: TextStyle(fontFamily: mainFont),
+                    ),
                   ),
                 ),
                 isCorrect
-                ? ElevatedButton(
-                    onPressed: null,
-                    child: Text('Continue'),
-
-                  )
-                : Container(),
+                    ? ElevatedButton(
+                        onPressed: null,
+                        child: Text('Continue'),
+                      )
+                    : Container(),
               ],
             ),
-            
           ],
         ),
       ),

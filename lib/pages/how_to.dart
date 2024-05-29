@@ -26,9 +26,7 @@ class HowToPage extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(32),
               decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16)
-              ),
+                  color: Colors.white, borderRadius: BorderRadius.circular(16)),
               child: Text(
                 "1.Tekan tombol play untuk memulai permainan\n"
                 "2. Pilih Level permainan anda\n"
@@ -39,7 +37,8 @@ class HowToPage extends StatelessWidget {
                 "7. Jika anda tidak bisa menjawab kami menyediakan fitur bantuan\n"
                 "8. Fitur bantuan akan memunculkan clue jawaban\n"
                 "9. Fitur bantuan memerlukan 1 poin hati untuk di gunakan\n",
-                style: TextStyle(fontSize: 18, color: Colors.black, fontFamily: mainFont),
+                style: TextStyle(
+                    fontSize: 18, color: Colors.black, fontFamily: mainFont),
               ),
             ),
           )

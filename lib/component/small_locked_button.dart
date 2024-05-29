@@ -10,28 +10,28 @@ class SmallLockedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-        child: SizedBox(
-          height: 43,
-          width: 180,
-          child: Padding(
-            padding: const EdgeInsets.only(bottom: 10.0),
-            child: ElevatedButton(
+      child: SizedBox(
+        height: 43,
+        width: 180,
+        child: Padding(
+          padding: const EdgeInsets.only(bottom: 10.0),
+          child: ElevatedButton(
+            onPressed: null,
+            style: ElevatedButton.styleFrom(
+              backgroundColor: const Color.fromARGB(255, 46, 40, 40),
+              foregroundColor: Colors.white,
+            ),
+            child: TextButton.icon(
               onPressed: null,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 46, 40, 40),
-                foregroundColor: Colors.white,
-              ),
-              child: TextButton.icon(
-                onPressed: null,
-                icon: const Icon(Icons.lock), // Add the icon here
-                label: Text(
-                  buttonText,
-                  style: TextStyle(fontFamily: mainFont, fontSize: 12),
-                ),
+              icon: const Icon(Icons.lock), // Add the icon here
+              label: Text(
+                buttonText,
+                style: TextStyle(fontFamily: mainFont, fontSize: 12),
               ),
             ),
           ),
         ),
+      ),
     );
   }
 }
