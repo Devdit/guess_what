@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:guess_what/component/color.dart';
 import 'package:guess_what/component/font.dart';
-import 'package:guess_what/component/locked_button.dart';
 import 'package:guess_what/component/small_button.dart';
 import 'package:guess_what/component/small_locked_button.dart';
 

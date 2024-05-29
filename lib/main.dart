@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:guess_what/pages/dummy.dart';
 import 'package:guess_what/pages/how_to.dart';
 import 'package:guess_what/pages/landing_page.dart';
 import 'package:guess_what/pages/level.dart';

@@ -3,7 +3,6 @@
   import 'package:flutter/material.dart';
   import 'package:guess_what/component/color.dart';
   import 'package:guess_what/component/font.dart';
-  import 'package:guess_what/pages/dummy.dart';
 
   class MainButton extends StatelessWidget {
     final String buttonText;

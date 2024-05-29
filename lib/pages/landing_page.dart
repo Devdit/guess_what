@@ -14,10 +14,14 @@ class LandingPage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          CircleAvatar(
-            child: Image.asset("images/logo1.png", fit: BoxFit.cover),
-            radius: 50,
-            
+          Container(
+            width: 130,
+            height: 150,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(
+                  image: AssetImage('images/logo1.png'), fit: BoxFit.fill),
+            ),
           ),
           Column(
             children: [

@@ -1,7 +1,6 @@
 // ignore_for_file: sort_child_properties_last, non_constant_identifier_names, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:guess_what/component/color.dart';
 import 'package:guess_what/component/font.dart';
 
 class SmallLockedButton extends StatelessWidget {
